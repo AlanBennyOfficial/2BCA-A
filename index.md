@@ -2,31 +2,33 @@
 
 ## 📌 Usage
 
-Click on any of the files or folders to download/view its contents.
+- Click a file link → GitHub will open it in **view mode** (easy to copy code).  
+- To **download raw file**, click the file → then click **“Download raw file”** in GitHub.  
+
 ---
 
 ## 🔸 Python Programs 
 
-- [DemoWithDS.py](./DemoWithDS.py)  
-- [DemoWithoutDS.py](./DemoWithoutDS.py)  
-- [ExponentialTime.py](./ExponentialTime.py)  
-- [LinearTime.py](./LinearTime.py)  
-- [QuadraticTime.py](./QuadraticTime.py)  
-- [VisualComparison.py](./VisualComparison.py)  
-- [WordProblemWithDS.py](./WordProblemWithDS.py)  
-- [WordProblemWithoutDS.py](./WordProblemWithoutDS.py)  
+- [DemoWithDS.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/DemoWithDS.py)  
+- [DemoWithoutDS.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/DemoWithoutDS.py)  
+- [ExponentialTime.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/ExponentialTime.py)  
+- [LinearTime.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/LinearTime.py)  
+- [QuadraticTime.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/QuadraticTime.py)  
+- [VisualComparison.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/VisualComparison.py)  
+- [WordProblemWithDS.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/WordProblemWithDS.py)  
+- [WordProblemWithoutDS.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/WordProblemWithoutDS.py)  
 
 ---
 
 ## 🔸 Folders
 
-- [02AUG2025](./02AUG2025)  
-- [12AUG2025](./12AUG2025)  
-- [16Aug2025](./16Aug2025)  
-- [29JUL2025](./29JUL2025)  
-- [LinkedLists](./LinkedLists)  
-- [MusicPlayer](./MusicPlayer)  
-- [Stack](./Stack)  
+- [02AUG2025](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/02AUG2025)  
+- [12AUG2025](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/12AUG2025)  
+- [16Aug2025](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/16Aug2025)  
+- [29JUL2025](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/29JUL2025)  
+- [LinkedLists](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/LinkedLists)  
+- [MusicPlayer](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/MusicPlayer)  
+- [Stack](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/Stack)  
 
 ---
 
