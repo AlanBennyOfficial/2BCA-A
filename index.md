@@ -1,10 +1,11 @@
 # 📂 DSP Python Programs
 
-Easily view and download all Python programs and projects in this repository.
+## 📌 Usage
 
+Click on any of the files or folders to download/view its contents.
 ---
 
-## 🔸 Python Programs (Root)
+## 🔸 Python Programs 
 
 - [DemoWithDS.py](./DemoWithDS.py)  
 - [DemoWithoutDS.py](./DemoWithoutDS.py)  
@@ -35,9 +36,3 @@ Easily view and download all Python programs and projects in this repository.
 
 ---
 
-## 📌 Usage
-
-- Click a file link → GitHub will open it in **view mode** (easy to copy code).  
-- To **download raw file**, click the file → then click **“Download raw file”** in GitHub.  
-
----
