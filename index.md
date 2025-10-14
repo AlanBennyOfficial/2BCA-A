@@ -6,6 +6,7 @@
 - To **download raw file**, click the file → then click **“Download raw file”** in GitHub.  
 
 ---
+## To view the programs in chronological order, click [here](./ChronologicalOrder.md).
 
 ## 🔸 Python Programs 
 
@@ -29,7 +30,7 @@
 - [LinkedLists](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/LinkedLists)  
 - [MusicPlayer](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/MusicPlayer)  
 - [Stack](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/Stack)  
-- [Queue](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/Queues)
+- [Queues](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/Queues)
 
 ---
 
