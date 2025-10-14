@@ -9,7 +9,7 @@
 
 <!-- FILE_TABLE_START -->
 | Date modified | File |
-|---|---|
+| :---: | :---: |
 | 19-07-2025 11:41:58 AM | [DemoWithoutDS.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/DemoWithoutDS.py) |
 | 21-07-2025 12:41:54 PM | [DemoWithDS.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/DemoWithDS.py) |
 | 22-07-2025 11:48:58 AM | [WordProblemWithoutDS.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/WordProblemWithoutDS.py) |
