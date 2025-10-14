@@ -6,9 +6,6 @@
 - To **download raw file**, click the file → then click **“Download raw file”** in GitHub.  
 
 ---
-## 🔸 Chronological Order of Programs and Folders
-
-The table below lists all .py files found under c:\GitHub\2BCA-A, ordered by file modification time (oldest → newest). To regenerate the table after adding/modifying files, run the Python snippet that follows.
 
 <!-- FILE_TABLE_START -->
 | Date modified | File |
