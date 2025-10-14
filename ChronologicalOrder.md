@@ -46,6 +46,5 @@ The table below lists all .py files found under c:\GitHub\2BCA-A, ordered by fil
 | 30-09-2025 09:58:30 AM | [Queues/ParenthesisMatching.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/ParenthesisMatching.py) |
 | 30-09-2025 10:48:20 AM | [Queues/PM.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/PM.py) |
 | 13-10-2025 02:44:24 PM | [Queues/ExpressionEval.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/ExpressionEval.py) |
-| 14-10-2025 02:54:51 PM | [GenerateTable.py](https://github.com/AlanBennyOfficial/2BCA-A/blob/main/GenerateTable.py) |
 <!-- FILE_TABLE_END -->
 
