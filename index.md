@@ -6,7 +6,7 @@
 - To **download raw file**, click the file → then click **“Download raw file”** in GitHub.  
 
 ---
-## To view the programs in chronological order, click [here](./ChronologicalOrder.md).
+## To view the programs in chronological order, click [here](./ChronologicalOrder.html).
 
 ## 🔸 Python Programs 
 
