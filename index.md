@@ -29,6 +29,7 @@
 - [LinkedLists](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/LinkedLists)  
 - [MusicPlayer](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/MusicPlayer)  
 - [Stack](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/Stack)  
+- [Queue](https://github.com/AlanBennyOfficial/2BCA-A/tree/main/Queues)
 
 ---
 
