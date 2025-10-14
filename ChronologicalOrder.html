@@ -5,53 +5,65 @@
   <meta charset='utf-8'/>
   <meta name='viewport' content='width=device-width,initial-scale=1'/>
   <title>DSP Python Programs ordered chronologically</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
-    table{border-collapse:collapse;width:100%}
-    th,td{border:1px solid #ddd;padding:8px;text-align:left}
-    th{background:#f4f4f4}
+    :root{--bg:#f6f8fa;--card:#ffffff;--muted:#6b7280;--accent:#2563eb;--border:rgba(15,23,42,0.06)}
+    html,body{height:100%}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:var(--bg);color:#0f172a;padding:32px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+    .container{max-width:1100px;margin:0 auto}
+    .card{background:var(--card);border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06);padding:20px;border:1px solid var(--border);overflow:auto}
+    h1{margin:0 0 8px;font-weight:600} p.lead{margin:0 0 18px;color:var(--muted);font-size:0.95rem}
+    table{width:100%;border-collapse:separate;border-spacing:0;font-size:0.95rem;min-width:640px}
+    thead th{ text-align:left;padding:12px 14px;background:linear-gradient(180deg,rgba(249,250,251,0.8),rgba(243,244,246,0.8));font-weight:600;color:#0f172a;border-bottom:1px solid var(--border);position:sticky;top:0;-webkit-backdrop-filter: blur(6px);backdrop-filter: blur(6px);}
+    tbody td{padding:12px 14px;border-bottom:1px dashed var(--border);vertical-align:middle}
+    tbody tr:nth-child(even){background:rgba(15,23,42,0.02)} tbody tr:hover{background:rgba(37,99,235,0.04)}
+    a.file-link{color:var(--accent);text-decoration:none;font-weight:500} .time{color:var(--muted);font-variant-numeric:tabular-nums}
+    @media (max-width:720px){body{padding:18px} table{font-size:0.88rem} thead th, tbody td{padding:10px 8px}}
   </style>
 </head>
 <body>
+<div class='container'><div class='card'>
 <h1>DSP Python Programs ordered chronologically</h1>
 <p> </p>
 <table>
   <thead><tr><th>Date modified</th><th>File</th></tr></thead>
   <tbody>
-  <tr><td>19-07-2025 11:41:58 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/DemoWithoutDS.py">DemoWithoutDS.py</a></td></tr>
-  <tr><td>21-07-2025 12:41:54 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/DemoWithDS.py">DemoWithDS.py</a></td></tr>
-  <tr><td>22-07-2025 11:48:58 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/WordProblemWithoutDS.py">WordProblemWithoutDS.py</a></td></tr>
-  <tr><td>22-07-2025 12:00:44 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/WordProblemWithDS.py">WordProblemWithDS.py</a></td></tr>
-  <tr><td>28-07-2025 11:49:54 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/LinearTime.py">LinearTime.py</a></td></tr>
-  <tr><td>28-07-2025 11:50:40 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/QuadraticTime.py">QuadraticTime.py</a></td></tr>
-  <tr><td>28-07-2025 11:55:20 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/VisualComparison.py">VisualComparison.py</a></td></tr>
-  <tr><td>28-07-2025 12:44:24 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/ExponentialTime.py">ExponentialTime.py</a></td></tr>
-  <tr><td>29-07-2025 11:28:36 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/29JUL2025/DivideAndConquer.py">29JUL2025/DivideAndConquer.py</a></td></tr>
-  <tr><td>29-07-2025 11:29:14 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/29JUL2025/DynamicProgramming.py">29JUL2025/DynamicProgramming.py</a></td></tr>
-  <tr><td>02-08-2025 10:49:34 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/BackTracking.py">02AUG2025/BackTracking.py</a></td></tr>
-  <tr><td>02-08-2025 10:53:50 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/Fibonacci.py">02AUG2025/Fibonacci.py</a></td></tr>
-  <tr><td>02-08-2025 11:02:16 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/MergeSort.py">02AUG2025/MergeSort.py</a></td></tr>
-  <tr><td>02-08-2025 11:24:20 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/Recursion.py">02AUG2025/Recursion.py</a></td></tr>
-  <tr><td>02-08-2025 11:34:26 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/29JUL2025/GreedyAlgorithm.py">29JUL2025/GreedyAlgorithm.py</a></td></tr>
-  <tr><td>05-08-2025 02:00:34 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/LinearSearch.py">02AUG2025/LinearSearch.py</a></td></tr>
-  <tr><td>05-08-2025 02:21:52 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/BinarySearch.py">02AUG2025/BinarySearch.py</a></td></tr>
-  <tr><td>06-08-2025 11:06:22 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/Face.py">02AUG2025/Face.py</a></td></tr>
-  <tr><td>12-08-2025 02:13:24 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/12AUG2025/Array.py">12AUG2025/Array.py</a></td></tr>
-  <tr><td>16-08-2025 11:59:02 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/16Aug2025/SingleLinkedList.py">16Aug2025/SingleLinkedList.py</a></td></tr>
-  <tr><td>19-08-2025 11:35:04 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/MusicPLayer/CircularAudioFlow-MusicPlayer/music_player.py">MusicPLayer/CircularAudioFlow-MusicPlayer/music_player.py</a></td></tr>
-  <tr><td>24-08-2025 07:54:48 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/LinkedLists/SingleLinkedList.py">LinkedLists/SingleLinkedList.py</a></td></tr>
-  <tr><td>25-08-2025 12:50:58 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/LinkedLists/DoublyLinkedList.py">LinkedLists/DoublyLinkedList.py</a></td></tr>
-  <tr><td>30-08-2025 11:39:06 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/LinkedLists/CSLL.py">LinkedLists/CSLL.py</a></td></tr>
-  <tr><td>30-08-2025 11:59:32 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/LinkedLists/CDLL.py">LinkedLists/CDLL.py</a></td></tr>
-  <tr><td>02-09-2025 10:58:26 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Stack/Stack_Using_Fixed_Arrays.py">Stack/Stack_Using_Fixed_Arrays.py</a></td></tr>
-  <tr><td>08-09-2025 10:59:28 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Stack/Bracket.py">Stack/Bracket.py</a></td></tr>
-  <tr><td>20-09-2025 11:47:20 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/Queues.py">Queues/Queues.py</a></td></tr>
-  <tr><td>23-09-2025 02:25:14 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/NodebasedQueue.py">Queues/NodebasedQueue.py</a></td></tr>
-  <tr><td>29-09-2025 12:55:10 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/StackBasedQueue.py">Queues/StackBasedQueue.py</a></td></tr>
-  <tr><td>30-09-2025 09:58:30 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/ParenthesisMatching.py">Queues/ParenthesisMatching.py</a></td></tr>
-  <tr><td>30-09-2025 10:48:20 AM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/PM.py">Queues/PM.py</a></td></tr>
-  <tr><td>13-10-2025 02:44:24 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/ExpressionEval.py">Queues/ExpressionEval.py</a></td></tr>
-  <tr><td>14-10-2025 03:33:08 PM</td><td><a href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/GenerateTable.py">GenerateTable.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">19-07-2025 11:41:58 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/DemoWithoutDS.py">DemoWithoutDS.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">21-07-2025 12:41:54 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/DemoWithDS.py">DemoWithDS.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">22-07-2025 11:48:58 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/WordProblemWithoutDS.py">WordProblemWithoutDS.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">22-07-2025 12:00:44 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/WordProblemWithDS.py">WordProblemWithDS.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">28-07-2025 11:49:54 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/LinearTime.py">LinearTime.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">28-07-2025 11:50:40 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/QuadraticTime.py">QuadraticTime.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">28-07-2025 11:55:20 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/VisualComparison.py">VisualComparison.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">28-07-2025 12:44:24 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/ExponentialTime.py">ExponentialTime.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">29-07-2025 11:28:36 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/29JUL2025/DivideAndConquer.py">29JUL2025/DivideAndConquer.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">29-07-2025 11:29:14 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/29JUL2025/DynamicProgramming.py">29JUL2025/DynamicProgramming.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">02-08-2025 10:49:34 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/BackTracking.py">02AUG2025/BackTracking.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">02-08-2025 10:53:50 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/Fibonacci.py">02AUG2025/Fibonacci.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">02-08-2025 11:02:16 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/MergeSort.py">02AUG2025/MergeSort.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">02-08-2025 11:24:20 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/Recursion.py">02AUG2025/Recursion.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">02-08-2025 11:34:26 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/29JUL2025/GreedyAlgorithm.py">29JUL2025/GreedyAlgorithm.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">05-08-2025 02:00:34 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/LinearSearch.py">02AUG2025/LinearSearch.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">05-08-2025 02:21:52 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/BinarySearch.py">02AUG2025/BinarySearch.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">06-08-2025 11:06:22 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/02AUG2025/Face.py">02AUG2025/Face.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">12-08-2025 02:13:24 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/12AUG2025/Array.py">12AUG2025/Array.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">16-08-2025 11:59:02 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/16Aug2025/SingleLinkedList.py">16Aug2025/SingleLinkedList.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">19-08-2025 11:35:04 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/MusicPLayer/CircularAudioFlow-MusicPlayer/music_player.py">MusicPLayer/CircularAudioFlow-MusicPlayer/music_player.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">24-08-2025 07:54:48 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/LinkedLists/SingleLinkedList.py">LinkedLists/SingleLinkedList.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">25-08-2025 12:50:58 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/LinkedLists/DoublyLinkedList.py">LinkedLists/DoublyLinkedList.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">30-08-2025 11:39:06 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/LinkedLists/CSLL.py">LinkedLists/CSLL.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">30-08-2025 11:59:32 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/LinkedLists/CDLL.py">LinkedLists/CDLL.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">02-09-2025 10:58:26 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Stack/Stack_Using_Fixed_Arrays.py">Stack/Stack_Using_Fixed_Arrays.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">08-09-2025 10:59:28 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Stack/Bracket.py">Stack/Bracket.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">20-09-2025 11:47:20 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/Queues.py">Queues/Queues.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">23-09-2025 02:25:14 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/NodebasedQueue.py">Queues/NodebasedQueue.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">29-09-2025 12:55:10 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/StackBasedQueue.py">Queues/StackBasedQueue.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">30-09-2025 09:58:30 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/ParenthesisMatching.py">Queues/ParenthesisMatching.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">30-09-2025 10:48:20 AM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/PM.py">Queues/PM.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">13-10-2025 02:44:24 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/Queues/ExpressionEval.py">Queues/ExpressionEval.py</a></td></tr>
+  <tr><td class='time' data-label="Date modified">14-10-2025 03:55:46 PM</td><td data-label="File"><a class='file-link' href="https://github.com/AlanBennyOfficial/2BCA-A/blob/main/GenerateTable.py">GenerateTable.py</a></td></tr>
   </tbody>
 </table>
+</div></div>
 </body>
 </html>
