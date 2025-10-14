@@ -12,6 +12,7 @@ git clone https://github.com/alanbennyofficial/2BCA-A.git
 
 
 ### View count:
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=alanbennyofficial&style=for-the-badge&color=7378D9"/>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=alanbennyofficial.2BCA-A&"  />
 </div>
